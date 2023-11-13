@@ -1,0 +1,106 @@
+.testimony-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  max-width: 1400px;
+  min-width: 950px;
+  margin: 10px 1px 50px;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+.card-text-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-weight: 400px;
+  line-height: 1.5rem;
+}
+
+.name-country {
+  font-size: 1.3rem;
+}
+
+.profession-company {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.text-testimony {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 992px) {
+  .testimony-container {
+    max-width: 700px;
+    min-width: 500px;
+  }
+
+  .card-text-container {
+    padding: 0;
+    margin: 40px 20px;
+    line-height: 1.3rem;
+  }
+
+  .name-country {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .profession-company {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .text-testimony {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .testimony-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 3em;
+    max-width: 350px;
+    min-width: 350px;
+    width: 350px;
+  }
+
+  .card-text-container {
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 20px;
+  }
+
+  .name-country {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .profession-company {
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .text-testimony {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+}
