@@ -1,11 +1,9 @@
 import React from "react";
 import "./App.css";
 import freeCodeCampLogo from "./Images/FreeCodeCamp_logo.svg";
-import AllStudents from "./Components/Students.js";
+
 import Testimonies from "./Components/Testimonies.js";
 import StudentData from "./Students.json";
-
-console.log(StudentData);
 
 function App() {
   return (
