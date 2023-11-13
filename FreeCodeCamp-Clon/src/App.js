@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import freeCodeCampLogo from "./Images/FreeCodeCamp_logo.svg";
-
 import Testimonies from "./Components/Testimonies.js";
 import StudentData from "./Students.json";
 
