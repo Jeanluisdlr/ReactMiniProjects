@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: #1b1b32;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.principal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#freeCodeCamp-logo {
+  width: 65%;
+  height: 48px;
+  filter: grayscale(100%) invert(100%);
+  margin: 32px 0px;
+}
+
+.display-counter {
+  min-width: 300px;
+  height: 300px;
+  border: solid 8px white;
+  color: white;
+  margin: 32px 0px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 160px;
+}
