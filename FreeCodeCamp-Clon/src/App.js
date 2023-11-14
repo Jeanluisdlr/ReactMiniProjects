@@ -13,8 +13,9 @@ function App() {
       <div className="principal-container">
         <h1>Esto es lo que dicen nuestros alumnos sobre FreeCodeCamp:</h1>
         <div className="testimonies">
-          {StudentData.map((student, index) => (
+          {StudentData.map((student) => (
             <Testimonies
+              id={student.id}
               image={student.image}
               name={student.name}
               country={student.country}
