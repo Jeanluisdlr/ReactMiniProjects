@@ -15,7 +15,7 @@ function App() {
         <div className="testimonies">
           {StudentData.map((student) => (
             <Testimonies
-              id={student.id}
+              key={student.id}
               image={student.image}
               name={student.name}
               country={student.country}
