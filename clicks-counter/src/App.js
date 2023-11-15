@@ -12,10 +12,8 @@ function App() {
           alt="freeCodeCamp Logo"
         />
         <div className="display-counter">0</div>
-        <div className="buttons">
-          <Button buttonFunction="Click" />
-          <Button buttonFunction="Reset" />
-        </div>
+        <Button variant="primary" label="Click" />
+        <Button variant="secondary" label="Reset" />
       </div>
     </div>
   );
