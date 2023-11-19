@@ -1,5 +1,5 @@
-.button-primary,
-.button-secondary {
+.click-button,
+.reset-button {
   width: 250px;
   height: 80px;
   border: 2px solid white;
@@ -13,11 +13,11 @@
   margin: 5px;
 }
 
-.button-primary:hover,
-.button-secondary:hover {
+.click-button:hover,
+.reset-button:hover {
   background-color: #00451b;
 }
 
-.button-secondary {
+.reset-button {
   background-color: #5a01a7;
 }
