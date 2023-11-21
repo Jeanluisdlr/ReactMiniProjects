@@ -1,6 +1,6 @@
 .click-button,
 .reset-button {
-  width: 250px;
+  min-width: 250px;
   height: 80px;
   border: 2px solid white;
   background-color: #002ead;
@@ -20,4 +20,26 @@
 
 .reset-button {
   background-color: #5a01a7;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .click-button,
+  .reset-button {
+    min-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  .click-button,
+  .reset-button {
+    min-width: 160px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
 }
