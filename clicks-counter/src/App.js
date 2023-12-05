@@ -8,7 +8,7 @@ import { useState } from "react";
 function App() {
   const [count, setCount] = useState(0);
   const increment = () => {
-    setCount(count + 10000000);
+    setCount(count + 1);
   };
   const reset = () => {
     setCount(0);
