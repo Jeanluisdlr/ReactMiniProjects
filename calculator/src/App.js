@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Button from "./components/button";
 import freeCodeCampLogo from "./images/freeCodeCampLogo.svg";
+import { useState } from "react";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           alt="freeCodeCamp Logo"
         />
         <div className="calculator-container">
-          <div className="display"></div>
+          <div className="display">7433</div>
           <div className="numbers-container">
             <Button className="number" label="7" />
             <Button className="number" label="8" />

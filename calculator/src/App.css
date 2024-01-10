@@ -44,12 +44,18 @@ body {
 }
 
 .display {
+  display: flex;
   width: 400px;
   height: 88px;
   background-color: black;
   margin: 10px;
   border-radius: 50px;
   box-shadow: -1px 4px 1px 1px white;
+  color: white;
+  justify-content: flex-end;
+  padding: 12px 24px 12px 12px;
+  font-size: 24px;
+  align-items: center;
 }
 
 .numbers-container {
