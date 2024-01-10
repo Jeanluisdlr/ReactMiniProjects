@@ -1,18 +1,12 @@
 import React from "react";
 import "./App.css";
 import freeCodeCampLogo from "./images/freeCodeCampLogo.svg";
-import Counter from "./Hooks/counter";
+import useCounter from "./Hooks/counter";
 import Button from "./components/buttons";
 import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const increment = () => {
-    setCount(count + 1);
-  };
-  const reset = () => {
-    setCount(0);
-  };
+  const { increment, reset, count } = useCounter();
 
   return (
     <div className="App">
@@ -23,7 +17,7 @@ function App() {
           alt="freeCodeCamp Logo"
         />
         <div className="display-counter">
-          <p>{count.toLocaleString()}</p>
+          <p>{String(count)}</p>
         </div>
 
         <Button className="click-button" label="Click" onClick={increment} />
