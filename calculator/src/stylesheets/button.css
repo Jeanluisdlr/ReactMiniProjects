@@ -1,5 +1,7 @@
 .number,
-.operator {
+.operator,
+.dot,
+.equal {
   width: 80px;
   height: 60px;
   border: 2px solid #fff;

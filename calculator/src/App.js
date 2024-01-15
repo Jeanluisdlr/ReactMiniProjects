@@ -2,9 +2,10 @@ import React from "react";
 import "./App.css";
 import Button from "./components/button";
 import freeCodeCampLogo from "./images/freeCodeCampLogo.svg";
-import { useState } from "react";
-
+import UseShowDisplay from "./hooks/showDisplay";
 function App() {
+  const { expression, printButton, clearDisplay, evaluation } =
+    UseShowDisplay();
   return (
     <div className="App">
       <div className="principal-container">
@@ -14,27 +15,27 @@ function App() {
           alt="freeCodeCamp Logo"
         />
         <div className="calculator-container">
-          <div className="display">7433</div>
+          <div className="display">{expression}</div>
           <div className="numbers-container">
-            <Button className="number" label="7" />
-            <Button className="number" label="8" />
-            <Button className="number" label="9" />
-            <Button className="operator" label="/" />
-            <Button className="number" label="4" />
-            <Button className="number" label="5" />
-            <Button className="number" label="6" />
-            <Button className="operator" label="*" />
-            <Button className="number" label="1" />
-            <Button className="number" label="2" />
-            <Button className="number" label="3" />
-            <Button className="operator" label="-" />
-            <Button className="number" label="." />
-            <Button className="number" label="0" />
-            <Button className="number" label="=" />
-            <Button className="operator" label="+" />
+            <Button label="7" onclick={printButton} />
+            <Button label="8" onclick={printButton} />
+            <Button label="9" onclick={printButton} />
+            <Button label="/" onclick={printButton} />
+            <Button label="4" onclick={printButton} />
+            <Button label="5" onclick={printButton} />
+            <Button label="6" onclick={printButton} />
+            <Button label="*" onclick={printButton} />
+            <Button label="1" onclick={printButton} />
+            <Button label="2" onclick={printButton} />
+            <Button label="3" onclick={printButton} />
+            <Button label="-" onclick={printButton} />
+            <Button label="." onclick={printButton} />
+            <Button label="0" onclick={printButton} />
+            <Button label="=" onclick={evaluation} />
+            <Button label="+" onclick={printButton} />
           </div>
           <div className="clear-button-section">
-            <Button className="clear-button" label="Clear" />
+            <Button label="Clear" onclick={clearDisplay} />
           </div>
         </div>
       </div>
