@@ -1,0 +1,24 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.input-label {
+  margin-bottom: 10px;
+  align-self: self-start;
+}
+
+#submit-button {
+  align-self: self-start;
+  cursor: pointer;
+}

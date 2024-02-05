@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-import PercentageBar from "./components/percentageBar";
+import SubmitForm from "./components/SubmitFormData";
 
 function App() {
   return (
     <div className="App">
-      <PercentageBar />
+      <SubmitForm />
     </div>
   );
 }
