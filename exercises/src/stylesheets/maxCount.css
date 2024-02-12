@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.maxCount-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  margin-bottom: 10px;
+}
+
+.timers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+  min-width: 80%;
+  height: auto;
+}
+
+h2 {
+  margin: 20px 0 15px 0;
+}
+
+h5 {
+  margin: 10px 0 10px 0;
+}
+
+button {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+  margin: 10px 0 10px 0;
+}

@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-import SubmitForm from "./components/SubmitFormData";
+import MaxCount from "./components/MaxCount";
 
 function App() {
   return (
     <div className="App">
-      <SubmitForm />
+      <MaxCount />
     </div>
   );
 }
