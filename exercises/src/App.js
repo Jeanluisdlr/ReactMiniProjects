@@ -1,12 +1,12 @@
 import "./App.css";
 import React from "react";
 // import { useEffect, useState } from "react";
-import FetchUseEffect from "./components/FetchUseEffect";
+import CountDown from "./components/countDownTimer";
 
 function App() {
   return (
     <div className="App">
-      <FetchUseEffect userId="3" />
+      <CountDown />
     </div>
   );
 }
