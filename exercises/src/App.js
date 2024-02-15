@@ -1,11 +1,12 @@
 import "./App.css";
 import React from "react";
-import MaxCount from "./components/MaxCount";
+// import { useEffect, useState } from "react";
+import FetchUseEffect from "./components/FetchUseEffect";
 
 function App() {
   return (
     <div className="App">
-      <MaxCount />
+      <FetchUseEffect userId="3" />
     </div>
   );
 }
