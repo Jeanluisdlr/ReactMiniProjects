@@ -1,12 +1,11 @@
 import "./App.css";
 import React from "react";
-// import { useEffect, useState } from "react";
-import CountDown from "./components/countDownTimer";
+import WindowSize from "./components/WindowSize";
 
 function App() {
   return (
     <div className="App">
-      <CountDown />
+      <WindowSize />
     </div>
   );
 }
