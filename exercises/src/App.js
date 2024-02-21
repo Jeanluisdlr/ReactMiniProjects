@@ -1,11 +1,11 @@
 import "./App.css";
 import React from "react";
-import WindowSize from "./components/WindowSize";
+import InsertingText from "./components/InsertingText";
 
 function App() {
   return (
     <div className="App">
-      <WindowSize />
+      <InsertingText />
     </div>
   );
 }
