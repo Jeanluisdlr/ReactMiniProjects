@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.insertingText-conatiner {
+.insertingText-container {
   min-width: 30%;
   min-height: 40%;
   display: flex;
@@ -28,4 +28,5 @@
   width: 100%;
   border: solid 3px black;
   min-height: 100px;
+  padding: 2rem;
 }
